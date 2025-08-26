@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>STYLING PROPRETIES</h1>
+
+    <h3>Selector</h3>
+    <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.<br>
+       Selectors are divided into 5 parts for our convinence.
+        <ul>
+            <li>Simple selectors (select elements based on name, id, class)</li>
+            <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+            <li>Pseudo-class selectors (select elements based on a certain state)</li>
+            <li>Pseudo-elements selectors (select and style a part of an element)</li>
+            <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+        </ul>
+        <b>example --<br>
+            p {<br>
+                text-align: center;<br>
+                color: red;<br>
+            }
+        </b>
+    </p>
+    <h3>Color System</h3>
+    <ul>
+        <li>color by name</li>
+            <p>it is simple as the name coloring with the help of color name.<br><b>example -- (red,blue,green)</b></p>
+        <li>color by code</li>
+            <p>in this we have a unique code for every and each color.<br>
+            code generally start with the #.<br>
+            <b>example -- (#548d4)</b></p>
+        <li>color by rbg number</li>
+            <p>
+                we have number of coloe from 0 to 255.<br>
+                meaning of rbg is red ,blue ,green.<br>
+                <b>formate to define color is rbg(0,0,0) to rbg(255,255,255)</b>
+            </p>
+    </ul>
+
+    <h3>Background</h3>
+    <p>The CSS background properties are used to add background effects for elements.<br></p>
+    <ul>
+        <li>background-color</li>
+        <p>The <b>background-color</b> property specifies the background color of an element.<br>
+        <b>example --  body {
+        background-color: lightblue;
+        }</b></p>
+        <li>background-image</li>
+        <p>The <b>background-image</b> property specifies an image to use as the background of an element.<br>
+
+        By default, the image is repeated so it covers the entire element.<br>
+        <b>example -- body {
+        background-image: url("paper.gif");
+        }</b></p>
+        <li>background-repeat</li>
+        <p>The <b>background-repeat</b> property sets if/how a background image will be repeated.<br>
+
+        By default, a background-image is repeated both vertically and horizontally.<br>
+
+        Some images should be repeated only horizontally or vertically, or they will look strange, like this:<br>
+        <b>example -- body {
+        background-image: url("gradient_bg.png");
+        }</b></p>
+        <li>background-attachment</li>
+        <p>The background-attachment property specifies whether the background image should scroll or be fixed<br>
+        (will not scroll with the rest of the page):<br>
+        <b> example -- body{
+        background-attachment: fixed;
+        }
+        </b></p>
+        <li>background-position</li>
+        <p><b>example -- body{
+        background-position: right top;
+        }
+        </b></p>
+        <li>background (shorthand property)</li>
+        <p>To shorten the code, it is possible to specify all the background properties in one single property.<br>
+        This is called a shorthand property.<br>
+        <b>example -- body {
+        background-color: #ffffff;
+        background-image: url("img_tree.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        }</b></p>
+    </ul>
+    
+
+
+</body>
+</html>

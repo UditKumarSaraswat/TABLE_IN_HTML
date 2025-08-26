@@ -1,0 +1,20 @@
+body{
+    background-image:url("css_image.avif");
+    
+}
+h1{
+    text-align: center;
+    background-color: aqua;
+    color:blueviolet;
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+h3 + ul li{
+    color:#1313e6;
+    
+}
+h3 +p +ul li{
+    color:#1313e6;
+}
