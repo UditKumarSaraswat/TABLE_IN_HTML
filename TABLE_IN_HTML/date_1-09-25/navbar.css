@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav1{
+    background-color: aqua;
+    
+}
+.button{
+    background-color: burlywood;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+}
+#nav2{
+    background-color: aquamarine;
+    padding:5px;
+    display: flex;
+    
+    
+    
+}
+#box1{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    border: 5px dashed black;
+    transition: all;
+    position: relative;
+    margin-left: 250px;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px dotted black;
+    border-radius: 60px;
+    margin-left: 190px;
+    margin-top: 50px;
+    
+    
+}
